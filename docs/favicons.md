@@ -3,7 +3,7 @@ Endpoint: `https://api.novasearch.xyz/favicon/{favicon_id}`
 
 Returns favicon for a website based on `favicon_id`. To find `favicon_id`, see [GET - /search](/docs/search.md)
 
-# Endpoint Responses
+## Endpoint Responses
 200 - Success
 
 403 - Forbidden

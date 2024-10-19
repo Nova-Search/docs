@@ -3,7 +3,7 @@ Endpoint: `https://api.novasearch.xyz/search?query=`
 
 Returns search results in JSON format
 
-# Endpoint Responses
+## Endpoint Responses
 200 - Success
 
 410 - No Results
@@ -59,5 +59,5 @@ https://api.novasearch.xyz/search?query=example
 Or by using the following cURL command:
 
 ```sh
-curl -X GET "https://api.novasearch.xyz/favicon/07f023d35787e5ed9cbb5f638e490f8b"
+curl -X GET "https://api.novasearch.xyz/search?query=example"
 ```
