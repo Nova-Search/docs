@@ -43,7 +43,7 @@ The successful response (200 OK) returns a JSON array of search result objects. 
 | `description` | String | A brief description of the search result. |
 | `keywords` | String | Keywords associated with the search result. |
 | `favicon_id` | String | A unique identifier for the favicon of the website. (This may be used with a separate favicon retrieval endpoint if needed.) |
-
+| `last_crawled` | String | Timestamp for the last time the URL shown in the search result was crawled by us. |
 
 
 ## Rate Limits
